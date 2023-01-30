@@ -1,0 +1,40 @@
+
+        #img1{
+            width: 100px;
+            height: 120px;
+            border: 2px;
+        }
+        .button{
+            width: 15%;
+        }
+        #form{
+            
+            text-align: center;
+            border: 1px;
+            border-color: black;
+            border-style: solid;
+            width:400px;
+            height: 430px;
+            background-color: antiquewhite;
+        }
+        #fname{
+            padding-top: 5px;
+            padding-left: 17px;
+            padding-bottom: 5px;
+        }
+        #username{
+            padding-bottom: 5px;
+        }
+        #email{
+            padding-bottom: 5px;
+        }
+        #phone{
+            padding-bottom: 5px;
+        }
+        #password{
+            padding-bottom: 5px;
+        }
+        #cpassword{
+            padding-bottom: 5px;
+        }
+   

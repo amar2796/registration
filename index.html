@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!--link css -->
+    <script src="script.js"></script>        <!--link javascript-->
+</head>
+<body>
+    <center>
+    <form name="form" id="form" onsubmit="mySubmitForm();">
+    <h1>Registration Form</h1>
+     <img src="" alt="Please Mouse drage" id="img1" onmouseenter="myFunction1()" ><br>
+     
+    <div id="fname"><input type="text" alt="Drage the mouse" placeholder="First Name" name="name" id="name">&nbsp;&nbsp;
+    <input type="text" placeholder="Last Name" name="lname" id="lnamed"><br></div>
+
+    <div id="username"><img src="user.jpg" alt="" height="16px"><input type="text" name="username" placeholder="Username" size="47"
+        minlength="5" maxlength="12"><br></div>
+    
+    <div id="email"><img src="email.png" alt="" height="16px"><input type="text" name="email" placeholder="Email" size="47"><br></div>
+    
+    <div id="phone"><img src="phone.png" alt="" height="16px"><input type="text" name="tnumber" placeholder="Tel. Number" size="47"><br></div>
+    
+    <div id="password"><img src="password.jpg" height="16px"><input type="password" name="password" placeholder="Password" size="47"
+        minlength="7" maxlength="12"><br></div>
+    
+    <div id="cpassword"><img src="cpassword.png" height="16px"><input type="password" name="cpassword" placeholder="Confirm Password" size="47"
+        minlength="7" maxlength="12"><br></div>
+   
+    <input type="submit" value="OK" class="button" name="submit">
+    <input type="reset" value="Clear" class="button" name="reset">
+</form>
+</center>
+</body>
+</html>
